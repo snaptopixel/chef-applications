@@ -76,7 +76,7 @@ node.default['sublime_text']['preferences'] = {}.tap do |prefs|
         ".gitkeep",
         "dump.rdb"
     ]
-    prefs["remember_open_files"] = false
+    prefs["remember_open_files"] = true
     prefs["save_on_focus_lost"] = true
     prefs["tab_size"] = 4
     prefs["translate_tabs_to_spaces"] = true
