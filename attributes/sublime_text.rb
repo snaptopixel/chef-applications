@@ -7,11 +7,6 @@ node.default["sublime_text_packages"] = [
         "branch" => "st3"
     },
     {
-        "name"   => "GitGutter",
-        "source" => "https://github.com/jisaacks/GitGutter.git",
-        "branch" => "master"
-    },
-    {
         "name"   => "SCSS",
         "source" => "https://github.com/MarioRicalde/SCSS.tmbundle.git",
         "branch" => "SublimeText2"
@@ -22,37 +17,32 @@ node.default["sublime_text_packages"] = [
         "branch" => "ST3"
     },
     {
-        "name"   => "PHP-Twig",
-        "source" => "https://github.com/Anomareh/PHP-Twig.tmbundle.git",
-        "branch" => "master"
-    },
-    {
-        "name"   => "Theme - Aqua",
-        "source" => "https://github.com/cafarm/aqua-theme.git",
-        "branch" => "master"
-    },
-    {
-        "name"   => "Base16",
-        "source" => "https://github.com/chriskempson/base16-textmate.git",
-        "branch" => "master"
-    },
-    {
         "name"   => "ApplySyntax",
         "source" => "https://github.com/facelessuser/ApplySyntax.git",
         "branch" => "ST3"
     },
     {
-        "name"   => "Theme - Flatland",
-        "source" => "git://github.com/thinkpixellab/flatland.git",
+        "name"   => "Theme - Spacegray",
+        "source" => "https://github.com/kkga/spacegray.git",
+        "branch" => "master"
+    },
+    {
+        "name"   => "Fix Mac Path",
+        "source" => "https://github.com/int3h/SublimeFixMacPath.git",
+        "branch" => "master"
+    },
+    {
+        "name"   => "Grunt",
+        "source" => "https://github.com/tvooo/sublime-grunt/",
         "branch" => "master"
     }
 ]
 
-node.default["sublime_text"]["color_scheme"] = "Packages/Theme - Flatland/Flatland Dark.tmTheme"
+node.default["sublime_text"]["color_scheme"] = "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme"
 
 node.default['sublime_text']['preferences'] = {}.tap do |prefs|
     prefs["color_scheme"] = node['sublime_text']['color_scheme']
-    prefs["theme"] = "Flatland Dark.sublime-theme"
+    prefs["theme"] = "Spacegray Eighties.sublime-theme"
     prefs["auto_complete"] = true
     prefs["auto_complete_commit_on_tab"] = true
     prefs["auto_complete_with_fields"] = true
