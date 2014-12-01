@@ -35,6 +35,11 @@ node.default["sublime_text_packages"] = [
         "name"   => "Grunt",
         "source" => "https://github.com/tvooo/sublime-grunt/",
         "branch" => "master"
+    },
+    {
+        "name"   => "ColdFusion",
+        "source" => "https://github.com/SublimeText/ColdFusion.git",
+        "branch" => "development"
     }
 ]
 
