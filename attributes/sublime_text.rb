@@ -40,6 +40,11 @@ node.default["sublime_text_packages"] = [
         "name"   => "ColdFusion",
         "source" => "https://github.com/SublimeText/ColdFusion.git",
         "branch" => "development"
+    },
+    {
+        "name"   => "Color Highlighter",
+        "source" => "https://github.com/Monnoroch/ColorHighlighter",
+        "branch" => "master"
     }
 ]
 
