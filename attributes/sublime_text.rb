@@ -7,19 +7,19 @@ node.default["sublime_text_packages"] = [
         "branch" => "st3"
     },
     {
-        "name"   => "SCSS",
-        "source" => "https://github.com/MarioRicalde/SCSS.tmbundle.git",
-        "branch" => "SublimeText2"
+        "name"   => "Sass",
+        "source" => "https://github.com/nathos/sass-textmate-bundle.git",
+        "branch" => "master"
     },
     {
         "name"   => "BracketHighlighter",
         "source" => "https://github.com/facelessuser/BracketHighlighter.git",
-        "branch" => "ST3"
+        "branch" => "master"
     },
     {
         "name"   => "ApplySyntax",
         "source" => "https://github.com/facelessuser/ApplySyntax.git",
-        "branch" => "ST3"
+        "branch" => "master"
     },
     {
         "name"   => "Material Theme",
