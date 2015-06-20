@@ -40,12 +40,19 @@ node.default["sublime_text_packages"] = [
         "name"   => "Color Highlighter",
         "source" => "https://github.com/Monnoroch/ColorHighlighter",
         "branch" => "master"
+    },
+    {
+        "name"   => "GitGutter",
+        "source" => "https://github.com/jisaacks/GitGutter.git",
+        "branch" => "master"
     }
 ]
 
 node.default['sublime_text']['preferences'] = {}.tap do |prefs|
     prefs["color_scheme"] = "Packages/Material Theme/schemes/Material-Theme.tmTheme"
     prefs["theme"] = "Material-Theme.sublime-theme"
+    prefs["font_face"] = "Source Code Pro",
+    prefs["font_size"] = 14
     prefs["auto_complete"] = true
     prefs["auto_complete_commit_on_tab"] = true
     prefs["auto_complete_with_fields"] = true
