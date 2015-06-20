@@ -22,18 +22,13 @@ node.default["sublime_text_packages"] = [
         "branch" => "ST3"
     },
     {
-        "name"   => "Theme - Spacegray",
-        "source" => "https://github.com/kkga/spacegray.git",
+        "name"   => "Material Theme",
+        "source" => "https://github.com/equinusocio/material-theme.git",
         "branch" => "master"
     },
     {
         "name"   => "Fix Mac Path",
         "source" => "https://github.com/int3h/SublimeFixMacPath.git",
-        "branch" => "master"
-    },
-    {
-        "name"   => "Grunt",
-        "source" => "https://github.com/tvooo/sublime-grunt/",
         "branch" => "master"
     },
     {
@@ -48,11 +43,9 @@ node.default["sublime_text_packages"] = [
     }
 ]
 
-node.default["sublime_text"]["color_scheme"] = "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme"
-
 node.default['sublime_text']['preferences'] = {}.tap do |prefs|
-    prefs["color_scheme"] = node['sublime_text']['color_scheme']
-    prefs["theme"] = "Spacegray Eighties.sublime-theme"
+    prefs["color_scheme"] = "Packages/Material Theme/schemes/Material-Theme.tmTheme"
+    prefs["theme"] = "Material-Theme.sublime-theme"
     prefs["auto_complete"] = true
     prefs["auto_complete_commit_on_tab"] = true
     prefs["auto_complete_with_fields"] = true
