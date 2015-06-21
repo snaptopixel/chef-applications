@@ -45,6 +45,11 @@ node.default["sublime_text_packages"] = [
         "name"   => "GitGutter",
         "source" => "https://github.com/jisaacks/GitGutter.git",
         "branch" => "master"
+    },
+    {
+        "name"  => "Code Formatter",
+        "source" => "https://github.com/akalongman/sublimetext-codeformatter.git",
+        "branch" => "master"
     }
 ]
 
