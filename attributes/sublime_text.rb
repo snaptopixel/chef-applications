@@ -57,7 +57,7 @@ node.default["sublime_text_packages"] = [
         "branch" => "master"
     },
     {
-        "name"   => "CodeIntel"
+        "name"   => "CodeIntel",
         "source" => "https://github.com/SublimeCodeIntel/SublimeCodeIntel.git",
         "branch" => "master"
     }
