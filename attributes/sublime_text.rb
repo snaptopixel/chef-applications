@@ -47,8 +47,18 @@ node.default["sublime_text_packages"] = [
         "branch" => "master"
     },
     {
-        "name"  => "Code Formatter",
+        "name"   => "Code Formatter",
         "source" => "https://github.com/akalongman/sublimetext-codeformatter.git",
+        "branch" => "master"
+    },
+    {
+        "name"   => "Emmet",
+        "source" => "https://github.com/sergeche/emmet-sublime.git"
+        "branch" => "master"
+    },
+    {
+        "name"   => "CodeIntel"
+        "source" => "https://github.com/SublimeCodeIntel/SublimeCodeIntel.git"
         "branch" => "master"
     }
 ]
@@ -58,6 +68,7 @@ node.default['sublime_text']['preferences'] = {}.tap do |prefs|
     prefs["theme"] = "Material-Theme.sublime-theme"
     prefs["font_face"] = "Source Code Pro",
     prefs["font_size"] = 14
+    prefs["font_options"] = [ "gray_antialias" ]
     prefs["auto_complete"] = true
     prefs["auto_complete_commit_on_tab"] = true
     prefs["auto_complete_with_fields"] = true
@@ -91,8 +102,12 @@ node.default['sublime_text']['preferences'] = {}.tap do |prefs|
     prefs["tab_size"] = 4
     prefs["translate_tabs_to_spaces"] = true
     prefs["trim_trailing_white_space_on_save"] = true
-    prefs["line_padding_bottom"] = 1
-    prefs["line_padding_top"] = 1
+    prefs["line_padding_bottom"] = 3
+    prefs["line_padding_top"] = 3
     prefs["fade_fold_buttons"] = false
     prefs["scroll_past_end"] = true
+    prefs["material_theme_small_tab"] = true
+    prefs["overlay_scroll_bars"] = "enabled"
+    prefs["always_show_minimap_viewport"] = true
+    prefs["indent_guide_options"] = [ "draw_normal", "draw_active" ]
 end
