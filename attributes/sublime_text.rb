@@ -53,12 +53,12 @@ node.default["sublime_text_packages"] = [
     },
     {
         "name"   => "Emmet",
-        "source" => "https://github.com/sergeche/emmet-sublime.git"
+        "source" => "https://github.com/sergeche/emmet-sublime.git",
         "branch" => "master"
     },
     {
         "name"   => "CodeIntel"
-        "source" => "https://github.com/SublimeCodeIntel/SublimeCodeIntel.git"
+        "source" => "https://github.com/SublimeCodeIntel/SublimeCodeIntel.git",
         "branch" => "master"
     }
 ]
