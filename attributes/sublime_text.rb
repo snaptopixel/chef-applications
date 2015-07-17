@@ -47,8 +47,8 @@ node.default["sublime_text_packages"] = [
         "branch" => "master"
     },
     {
-        "name"   => "Code Formatter",
-        "source" => "https://github.com/akalongman/sublimetext-codeformatter.git",
+        "name"   => "HTMLPrettify",
+        "source" => "https://github.com/victorporof/Sublime-HTMLPrettify.git",
         "branch" => "master"
     },
     {
