@@ -60,6 +60,11 @@ node.default["sublime_text_packages"] = [
         "name"   => "CodeIntel",
         "source" => "https://github.com/SublimeCodeIntel/SublimeCodeIntel.git",
         "branch" => "master"
+    },
+    {
+        "name"   => "DashDoc",
+        "source" => "https://github.com/farcaller/DashDoc.git",
+        "branch" => "master"
     }
 ]
 
