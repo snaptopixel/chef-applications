@@ -75,6 +75,7 @@ node.default["sublime_text_packages"] = [
         "name" => "SublimeLinter-jshint",
         "source" => "https://github.com/SublimeLinter/SublimeLinter-jshint.git",
         "branch" => "master"
+    }
 ]
 
 node.default['sublime_text']['preferences'] = {}.tap do |prefs|
