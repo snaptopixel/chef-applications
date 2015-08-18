@@ -65,6 +65,11 @@ node.default["sublime_text_packages"] = [
         "name"   => "DashDoc",
         "source" => "https://github.com/farcaller/DashDoc.git",
         "branch" => "master"
+    },
+    {
+        "name" => "SublimeLinter",
+        "source" => "https://github.com/SublimeLinter/SublimeLinter3.git",
+        "branch" => "master"
     }
 ]
 
