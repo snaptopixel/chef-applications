@@ -70,6 +70,11 @@ node.default["sublime_text_packages"] = [
         "name" => "SublimeLinter-jshint",
         "source" => "https://github.com/SublimeLinter/SublimeLinter-jshint.git",
         "branch" => "master"
+    },
+    {
+        "name" => "SublimeBookmarks",
+        "source" => "https://github.com/bollu/sublimeBookmark.git",
+        "branch" => "master"
     }
 ]
 
